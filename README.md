@@ -18,7 +18,6 @@ cd potato-talker-app
 npm install
 cordova platform add browser
 cordova platform add android
-
 ```
 
 then you can run it in the browser or build it for Android
