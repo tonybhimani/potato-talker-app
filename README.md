@@ -4,6 +4,7 @@ How to describe this app... It was a "hey, I want you to add a talking avatar to
 The package uses libgif-js (SuperGif) for playing/pausing the animated GIF, and basic Javascript for the rest, bootstrap to doll it up, all baked in Cordova that I built for Android. You could build it for IOS too if you want.
 
 **Resources**
+
 libgif-js
 https://github.com/buzzfeed/libgif-js
 
@@ -29,6 +30,6 @@ cordova run android
 
 Note: I modded the libgif-js script to include an optional config parameter called `frame_delay` so that the default GIF animation speed can be overridden.
 
-TODOs: Fix the text wrap then add in some text-to-speech capability. If I wanted to go hardcore, give the Potato Talker some inteeligence with ChatGPT.
+TODOs: Fix the text wrap then add in some text-to-speech capability. If I wanted to go hardcore then I'd give the Potato Talker some inteeligence with ChatGPT.
 
 Happy coding!
