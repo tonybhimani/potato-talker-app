@@ -598,7 +598,7 @@
             pushFrame();
             clear();
             transparency = gce.transparencyGiven ? gce.transparencyIndex : null;
-            delay = (options.frameDelay != null && Number.isInteger(options.frameDelay)) ? options.frameDelay : gce.delayTime;
+            delay = (options.frame_delay != null && Number.isInteger(options.frame_delay)) ? options.frame_delay : gce.delayTime;
             disposalMethod = gce.disposalMethod;
             // We don't have much to do with the rest of GCE.
         };
