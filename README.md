@@ -1,4 +1,6 @@
 # Potato Talker App
+![Poatato Talker Preview](https://github.com/tonybhimani/potato-talker-app/blob/7e1e2911f5b1813e5043b5df02dc7d3d40d9864a/preview.gif?raw=true)
+
 How to describe this app... It was a "hey, I want you to add a talking avatar to your sound recorder" but then I decided to take that idea and make it an app. Basically, it's a an app that has an animated GIF, text field for input, and tele-types / prints the same message like a parrot, meanwhile the GIF plays with the Potato's mouth flapping as if he's saying it.
 
 The package uses libgif-js (SuperGif) for playing/pausing the animated GIF, and basic Javascript for the rest, bootstrap to doll it up, all baked in Cordova that I built for Android. You could build it for iOS too if you want.
