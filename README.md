@@ -27,8 +27,14 @@ cordova run browser
 cordova run android
 ```
 
+## Updates
+
+11/09/2023 - Added text-to-speech using the `cordova-plugin-tts-advanced` plugin.
+
+## Conclusion
+
 Note: I modded the libgif-js script to include an optional config parameter called `frame_delay` so that the default GIF animation speed can be overridden.
 
-TODOs: Fix the text wrap then add in some text-to-speech capability. If I wanted to go hardcore then I'd give the Potato Talker some intelligence with ChatGPT.
+TODOs: Fix the text wrap ~~then add in some text-to-speech capability~~. If I wanted to go hardcore then I'd give the Potato Talker some intelligence with ChatGPT.
 
 Happy coding!

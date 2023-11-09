@@ -33,6 +33,20 @@ function onDeviceReady() {
                 }
                 timeouts.length = 0;
             }
+            // use TTS plugin for voice
+            TTS.speak({
+                text: saywhat_str,
+                identifier: "", // TODO: deal with this later
+                rate: 2.0,
+                pitch: 0.2,
+                cancel: true
+            },
+            function() {
+                // success
+            },
+            function(err) {
+                // error
+            });
             // Potato Talker speaks character by character
             var t1 = setInterval(() => {
                 whatissaid.innerHTML += saywhat_str.charAt(idx);
