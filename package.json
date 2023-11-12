@@ -2,7 +2,7 @@
   "name": "com.tonybhimani.potatotalker",
   "displayName": "PotatoTalker",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "The Potato Talker repeats what is said to him. Maybe he should be a parrot?",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,11 +15,15 @@
   "devDependencies": {
     "cordova-android": "^9.1.0",
     "cordova-browser": "^6.0.0",
+    "cordova-plugin-speech": "^0.0.4",
+    "cordova-plugin-tts-advanced": "^0.5.3",
     "cordova-plugin-whitelist": "^1.3.4"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-tts-advanced": {},
+      "cordova-plugin-speech": {}
     },
     "platforms": [
       "browser",
