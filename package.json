@@ -16,13 +16,11 @@
     "cordova-android": "^9.1.0",
     "cordova-browser": "^6.0.0",
     "cordova-plugin-speech": "^0.0.4",
-    "cordova-plugin-tts-advanced": "^0.5.3",
     "cordova-plugin-whitelist": "^1.3.4"
   },
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-tts-advanced": {},
       "cordova-plugin-speech": {}
     },
     "platforms": [
